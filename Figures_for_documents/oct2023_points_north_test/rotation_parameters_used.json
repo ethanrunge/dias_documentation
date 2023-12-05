@@ -1,0 +1,60 @@
+{
+    "use_predefined":
+        1,
+    "procrustes_start_index":
+        64000,
+    "procrustes_end_index":
+        190000,
+    "rotation_components":
+        ["hx", "hy", "hz", "time"],
+    "rotation_units":{
+        "hx":
+            "nT",
+        "hy":
+            "nT",
+        "hz":
+            "nT",
+        "time":
+            "s"
+    },
+    "leap_seconds": 18,
+    "orientation_params":{
+        "gyro_x_axis_index": 1,
+        "gyro_x_axis_polarity": 1,
+        "gyro_y_axis_index": 0,
+        "gyro_y_axis_polarity": 1,
+        "gyro_z_axis_index": 2,
+        "gyro_z_axis_polarity": -1,
+        "acc_x_axis_index": 0,
+        "acc_x_axis_polarity": 1,
+        "acc_y_axis_index": 1,
+        "acc_y_axis_polarity": -1,
+        "acc_z_axis_index": 2,
+        "acc_z_axis_polarity": -1,
+        "mag_x_axis_index": 1,
+        "mag_x_axis_polarity": -1,
+        "mag_y_axis_index": 2,
+        "mag_y_axis_polarity": -1,
+        "mag_z_axis_index": 0,
+        "mag_z_axis_polarity": 1,
+        "squid_longitudinal_comp": "hx",
+        "squid_longitudinal_polarity": 1,
+        "squid_lateral_comp": "hy",
+        "squid_lateral_polarity": -1,
+        "squid_vertical_comp": "hz",
+        "squid_vertical_polarity": 1
+    },
+
+    "filter_up_sample": 1,
+    "filter_down_sample": 1,
+    "filter_cut_freq": 1000,
+    "rtk_overrides": {
+        "rtk_velocity_override": 1,
+        "rtk_heading_override": 0,
+        "rtk_override_file_location": "D:\\Field_Data\\20230911\\155919\\rotation\\20230911_155919_DAS.pos"
+    },
+    "motion_noise_compensation": 1,
+    "lever_arm_CoM_from_GPS_x": -934,
+    "lever_arm_CoM_from_GPS_y": 107,
+    "lever_arm_CoM_from_GPS_z": 196
+}
